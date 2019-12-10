@@ -27,7 +27,7 @@ jobs:
       run: ./node_modules/.bin/ci_tools prepare-version --allow-dirty-workdir
 
     - name: 'Build Sources'
-      run: npm run build
+      run: npm run all
 
     - name: 'Run Tests'
       run: npm test
